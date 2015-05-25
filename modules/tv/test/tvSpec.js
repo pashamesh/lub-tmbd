@@ -8,7 +8,7 @@
 
             $httpBackend.expectJSONP(lubTmdbBaseURL+ "tv/4607?api_key=" + lubTmdbApiKey+'&callback=JSON_CALLBACK').respond(200, {daTv:1});
             var success;
-            lubTmdbApiMovie.movie({
+            lubTmdbApiTv.tv({
                 query: 4607
             }).then(function (tv,status,header,config) {
                 success = tv.data;
@@ -32,7 +32,7 @@
 
             $httpBackend.expectJSONP(lubTmdbBaseURL + "tv/on_the_air?api_key=" + lubTmdbApiKey+'&callback=JSON_CALLBACK').respond(200, {daTv:1});
             var success;
-            lubTmdbApiMovie.popular().then(function (tv) {
+            lubTmdbApiTv.popular().then(function (tv) {
                     success = tv.data;
                 });
             $httpBackend.flush();

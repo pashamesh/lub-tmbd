@@ -32,6 +32,7 @@ angular.module('lub-tmdb-api', ['lub-tmdb-api-movie',
             company:lubTmdbApiCompany,
             genre:lubTmdbApiGenre,
             keyword:lubTmdbApiKeyword,
-            change:lubTmdbApiChange
+            change:lubTmdbApiChange,
+            tv:lubTmdbApiTv
         };
     }]);
