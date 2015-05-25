@@ -371,7 +371,7 @@ angular.module('lub-tmdb-api', ['lub-tmdb-api-movie',
     "lubTmdbApiKeyword",
     "lubTmdbApiChange",
     "lubTmdbApiTv",
-    function (lubTmdbApiSearch, lubTmdbApiConfiguration, lubTmdbApiMovie, lubTmdbApiCollection, lubTmdbApiPeople, lubTmdbApiList, lubTmdbApiCompany, lubTmdbApiGenre, lubTmdbApiKeyword, lubTmdbApiChange) {
+    function (lubTmdbApiSearch, lubTmdbApiConfiguration, lubTmdbApiMovie, lubTmdbApiCollection, lubTmdbApiPeople, lubTmdbApiList, lubTmdbApiCompany, lubTmdbApiGenre, lubTmdbApiKeyword, lubTmdbApiChange, lubTmdbApiTv) {
         return {
             search:lubTmdbApiSearch,
             configuration:lubTmdbApiConfiguration,
